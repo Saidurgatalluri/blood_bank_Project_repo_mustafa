@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: mysqldb
-        image: chinnipspk000/bloodbank:appimage
+        image: chinnipspk000/bb:appimage
         ports:
         - containerPort: 80
         env:
